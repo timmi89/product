@@ -14,6 +14,7 @@
   background-color: #0c1a27;
   /*min-width: 800px;*/
 }
+
 .header {
   background-image: url("../images/header.jpg");
   background-size: cover;
@@ -22,28 +23,64 @@
   height: 400px;
   width: auto;
   color: white;
-
-  /*text-align: right;*/
-  /*padding: 100px;*/
-  /*min-width: 600px;*/
 }
+
 .header h1 {
   overflow: hidden;
   position: absolute;
-  /*left: 60%;*/
+  text-align: right;
   right: 5%;
-  /*display: block;*/
   white-space: nowrap;
-  padding: 30px;
-  padding-left: 60px;
-  /*left: 5%;*/
+  padding: 60px;
+  margin-top: 60px;
+  left: 0.5%;
+  margin-left: -10px;
 }
-.intro h2 {
+
+.navbar {
+  margin-left: 2%;
+  padding-right: 5px;
+  color: white;
+  position: fixed;
+  padding-top: 20px;
+
+ }
+ .navbar li {
+  color: white;
+  display: inline-block;
+  padding: 10px;
+  /*font: inherit;*/
+
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar button{
+  background: none;
+  /*font: inherit;*/
+  border: solid 1px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+.intro h2, h3, li, p {
   text-align: center;
   /*white-space: nowrap;*/
   color: white;
 }
+.intro p {
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 30px;
+}
+.intro ul {
+  list-style-position: inside;
+}
 td, th {
  border: 1px solid #999;
  padding: 0.5rem;
+ color: white;
 }
