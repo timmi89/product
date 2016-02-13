@@ -6,12 +6,14 @@
           box-sizing: border-box;
 }
 
+
 /*.container {
   background-image: url("../images/background.jpg");
   background-repeat: no-repeat;
 }*/
 .container {
   background-color: #0c1a27;
+  overflow: hidden;
   /*min-width: 800px;*/
 }
 .cf:after {
@@ -19,8 +21,12 @@
   display: table;
   clear: both;
 }
-p, h4 {
+p, h4, h3, h2, h1, ul, li, a {
   color: white;
+  font-family: garamond;
+}
+li a:hover {
+  color: #990922;
 }
   /*heading*/
 .header {
@@ -50,6 +56,7 @@ p, h4 {
   margin-left: 2%;
   padding-right: 5px;
   color: white;
+
   position: fixed;
   padding-top: 20px;
 
@@ -57,7 +64,7 @@ p, h4 {
  .navbar li {
   color: white;
   display: inline-block;
-  /*padding: 10px;*/
+  padding: 2px;
   /*font: inherit;*/
 
 }
@@ -92,12 +99,7 @@ p, h4 {
   text-align: left;
   color: white;
 }
-/*p:nth-child(even) {
-  /*margin-left: 15%;
-  margin-right: 15%;*/
-  /*padding: 40px;*/
-  /*color: purple;
-}*/
+
 .intro ul {
   list-style-position: inside;
 }
@@ -162,11 +164,31 @@ tbody tr:nth-child(even) {
 /*gallery*/
 
 .thumb {
-  margin-top: 20px;
+  margin-right: -12%;
+  /*margin-top: 20px;*/
   float: left;
-  margin-left: 10%;
+  margin-left: 12%;
+  overflow: hidden;
+}
+.thumbnail{
+  text-align: center;
+  color: #0033cc;
+  font-weight: bold;
+  float: left;
+  margin-left: 20px;
+  border: none;
 }
 
+.thumb img {
+  /*width: 100px;
+  height: 100px;*/
+  border-radius: 2px;
+  border: 3px solid #235963;
+  margin: 0px 15px 15px 0;
+}
+.thumb img:hover {
+  border: solid 4px #990922;
+}
 
 .gallery h2 {
   padding: 20px;
@@ -176,4 +198,5 @@ tbody tr:nth-child(even) {
   text-align: left;
   margin-left: 15%;
   margin-right: 15%;
+  padding-bottom: 25px;
 }
