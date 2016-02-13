@@ -170,14 +170,6 @@ tbody tr:nth-child(even) {
   margin-left: 12%;
   overflow: hidden;
 }
-.thumbnail{
-  text-align: center;
-  color: #0033cc;
-  font-weight: bold;
-  float: left;
-  margin-left: 20px;
-  border: none;
-}
 
 .thumb img {
   /*width: 100px;
